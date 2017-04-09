@@ -108,3 +108,24 @@ a:hover, a:link, a:visited, a:active{
         width:auto;
     }
 }
+
+.form-register-login-costum {
+    margin-top: 50pt;
+    color: #FFFFFF;
+}
+
+.btn-costum {
+    background-color: #379f74;
+    border-color: #379f74;
+
+}
+
+.btn-login-position {
+    position: relative;
+    left: 70%;
+}
+
+.btn-register-position {
+    position: relative;
+    left: 72%;
+}

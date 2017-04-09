@@ -19,11 +19,11 @@
 <div class="container header container-custom">
     <div class="row">
         <div class="col-sm-4 col-xs-6" >
-            <img class="logo" src="images/logo.png" alt="ímagine_logo"/>
+            <a href="/"><img class="logo" src="images/logo.png" alt="ímagine_logo"/></a>
         </div>
         <div class="col-sm-8 col-xs-6">
-            <p class="in-block padding-top-right-20"><a href="#" class="signBtn">Inregistrare</a></p>
-            <p class="in-block padding-top-right-20"><a href="#" class="signBtn">Autentificare</a></p>
+            <p class="in-block padding-top-right-20"><a href="/register" class="signBtn">Inregistrare</a></p>
+            <p class="in-block padding-top-right-20"><a href="/login" class="signBtn">Autentificare</a></p>
         </div>
     </div>
 </div>

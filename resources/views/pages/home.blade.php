@@ -32,7 +32,7 @@
                     <div class="input-group add-on searchBar">
                         <input class="form-control" placeholder="Introduceti orasul (ex: Constanta)" name="srch-term" id="srch-term" type="text">
                         <div class="input-group-btn">
-                            <button class="btn btn-default search" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            <button class="btn btn-default search btn-costum" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                         </div>
                     </div>
                 </form>

@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'PagesController@getHome');
+Route::get('/login', 'PagesController@getLogin');
+Route::get('/register', 'PagesController@getRegister');
+
+Route::group(['middleware' => ['web']], function () {
+	Route::post('/register', [
+		'uses' => 'UserController@postRegister',
+		'as' => 'register'
+		]);
 });
